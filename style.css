@@ -178,7 +178,7 @@ logo {
 }
 .section-title h3 {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 60px;
 }
 /* about section start */
@@ -209,7 +209,8 @@ logo {
   border-top: 1px solid red;
 }
 .right-about h2 {
-  font-size: 40px;
+  font-size: 35px;
+  font-family: Montserrat;
   padding-top: 20px;
 }
 .right-about p {
@@ -220,7 +221,10 @@ logo {
 .right-about ul li {
   font: size 17px;
   list-style: square;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+}
+.right-about ul {
+  margin-left: 20px;
 }
 /* workout */
 .workout {
@@ -245,9 +249,13 @@ logo {
 .workout h3 {
   color: #fff;
   font-size: 30px;
+  font-family: Montserrat;
 }
 .workout a:hover {
   background-color: #cdcdcd;
+}
+#workout {
+  padding-bottom: 0;
 }
 /* service */
 .single-service {
@@ -274,8 +282,9 @@ logo {
   padding-bottom: 8px;
 }
 .service-details h3 {
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 5px;
+  font-family: Montserrat;
 }
 .service-details small {
   font-size: 14px;
@@ -286,9 +295,10 @@ logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Montserrat;
 }
 .price span {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 .price p {
@@ -321,6 +331,9 @@ logo {
 .copyright span {
   font-weight: 500;
   font-size: 17px;
+}
+.cr-name {
+  color: red;
 }
 footer {
   padding: 70px 0 100px 0;
